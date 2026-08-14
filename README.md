@@ -169,3 +169,15 @@ Flagged transactions are stored in the `suspicious_transactions` table and shown
 ## Disclaimer
 
 This project uses entirely synthetic/simulated data and simplified rule-based logic. It is intended for learning, portfolio, and academic demonstration purposes only, and is not a production banking or fraud-detection system.
+
+# Set DB_SERVER to your SQL Server instance name (as shown in SSMS).
+DB_SERVER=laptopname\MSSQLSERVER01
+DB_NAME=rims_db
+DB_DRIVER=ODBC Driver 17 for SQL Server
+
+# DB_AUTH: "windows" = use your Windows login (SSMS default, no password needed)
+#          "sql"     = use a SQL Server username/password below
+DB_AUTH=windows
+DB_USER=laptopname
+DB_PASSWORD=
+
